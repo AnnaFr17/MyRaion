@@ -1,0 +1,141 @@
+*{
+    font-family:'Bookman Old Style';
+}
+html, body, #map {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: start;
+    
+}
+.customControl {
+    display: none;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    max-width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   
+}
+
+.closeButton {
+    flex-basis: 15px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 3px;
+    height: 15px;
+    cursor: pointer;
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCI+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTQgLjdsLS43LS43TDcgNi4zLjcgMCAwIC43IDYuMyA3IDAgMTMuM2wuNy43TDcgNy43bDYuMyA2LjMuNy0uN0w3LjcgN3oiIGNsaXAtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==") 50% no-repeat;
+    opacity: 0.3;
+}
+
+.content {
+    padding: 5px;
+    height: 600px;
+    overflow: auto;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:#3191da;
+}
+
+.site{
+    color:#551A8B;
+    font-size: 16px;
+}
+
+.site:hover{
+    color:#541a8b77;
+}
+
+.spravka{
+    position: absolute;
+    font-size: 16px;
+    margin-top: 44%;
+    margin-left: 10%;
+    color: #999;
+}
+
+
+
+
+#map {
+    width: 75%;
+    height: 100%;
+}
+    /* Оформление меню (начало)*/
+.menu {
+    list-style: none;
+    padding: 5px;
+
+    margin: 0;
+    width: 25%;
+    text-align: center;
+    margin: 5px 0 5px 0;
+
+}
+.menu #needed {
+    width: 100%;
+}
+
+.menu li {
+    margin: 10px 0;
+    
+}
+  /* Оформление меню (конец)*/
+
+
+.ymaps-2-1-79-map-copyrights-promo,.ymaps-2-1-79-copyright__layout{
+    visibility: hidden;
+}
+
+/* Оформление кнопок меню (начало)*/
+
+.menu #needed {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu #needed input{
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin: 0 10px 15px 10px;
+    border: 2px solid #3191da;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    -webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
+    text-decoration: none;
+    overflow: hidden;
+    color: black;
+}
+
+.menu #needed input:hover{
+    background:#78B9EB;
+    box-shadow:0px 2px 10px 5px #78b9ebaf;
+    color: #fff;
+}
+
+.menu #needed div > :first-child{
+    margin-top: -10px;
+}
+.heading{
+    margin-top: -10px;
+    color:#3191da;
+}
+/*
+} Оформление кнопок меню (конец)*/

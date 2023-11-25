@@ -1,0 +1,128 @@
+*{
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+
+
+.js-prev,.js-next{
+  font-family: 'Roboto',sans-serif;
+  padding: 10px 20px;
+  background: #51a2e0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: -5px;
+}
+.js-prev{
+  margin-right: 68%;
+}
+
+.carousel-item{
+  width: 300px;
+  height: 160px;
+}
+
+button:hover{
+  background:#51a2e0b0;
+}
+
+
+.owl-dots{
+  height: 0;
+}
+
+/* Оформление сайдменю (начало)*/
+
+
+ul{
+  margin-top:0;
+  list-style-type: none;
+}
+
+hr{
+  border: 1px solid #dadce063;
+  margin: 10px 5px 10px 0;
+}
+
+.SideMenu {
+  margin: 0 10px 0 5px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.SideMenu.ConditionsOfPlaygrounds,.SideMenu.Features,.SideMenu.Table{
+  font-family:'Bookman Old Style';
+}
+
+.ConditionsOfPlaygroundsList, .FeaturesOfPlaygroundsList{
+  font-size: 12px;
+}
+.FeaturesOfPlaygroundsList li{
+  margin: 5px 0 5px 0;
+}
+
+.Address{
+  font-size: 14px;
+  color: #999;
+}
+/* Оформление сайдменю (конец)*/
+
+
+/* Оформление рейтинга звездочки(начало)*/
+.rating-mini {
+	display: inline-block;
+	font-size: 0;
+  vertical-align:sub;
+}
+.rating-mini span {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: lightgrey;
+}
+.rating-mini > span:before {
+	content: '★';
+}
+.rating-mini > span.active {
+	color: gold;
+}
+/* Оформление рейтинга звездочки(конец)*/
+
+
+/* Оформление отзывов (начало)*/
+.reviewbox{
+  margin-left:2px ;
+}
+.reviews{
+  width: 294px;
+  border: 2px solid lightgrey;
+  border-radius: 2%;
+  margin-bottom: 10px;
+}
+
+.reviews p{
+  margin: 2px 2px;
+}
+
+form input{
+  width: 100px;
+  margin-bottom: 2px;
+}
+
+form #message{
+  width: 96%;
+}
+
+#hiddenElement{
+  margin: -20px 0 8px 0;
+  border-bottom: 1px solid black;
+}
+
+#submit{
+  width: 26%;
+  padding-left:1px;
+}
+
+/* Оформление отзывов (конец)*/
+
+
